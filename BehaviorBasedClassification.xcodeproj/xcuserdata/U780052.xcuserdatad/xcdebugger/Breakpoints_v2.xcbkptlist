@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "37475E55-F14B-4267-87F4-71A79ABC0553"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C5A64ED-70D8-4BCA-8071-9B662BD993CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "event(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2C5A64ED-70D8-4BCA-8071-9B662BD993CE - d6fc693f91dec4a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BehaviorBasedClassification.BehaviourAnalyticsService.event(BehaviorBasedClassification.BehaviourAnalyticsService.Event) -&gt; ()"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "2C5A64ED-70D8-4BCA-8071-9B662BD993CE - d6fc693f91dec4a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BehaviorBasedClassification.BehaviourAnalyticsService.event(BehaviorBasedClassification.BehaviourAnalyticsService.Event) -&gt; ()"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "117E6B41-9056-41AA-9CBF-F1B7CAC78ABA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BehaviorBasedClassification/FileService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "createCSVX(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "117E6B41-9056-41AA-9CBF-F1B7CAC78ABA - c9aa40ecf2a8bfdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static BehaviorBasedClassification.FileService.createCSVX(from: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/FileService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "3352">
+               </Location>
+               <Location
+                  uuid = "117E6B41-9056-41AA-9CBF-F1B7CAC78ABA - c9aa40ecf2a8bfdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static BehaviorBasedClassification.FileService.createCSVX(from: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/FileService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "3156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB837DEB-DC8F-47EF-87AA-AD581EE94FD1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BehaviorBasedClassification/FileService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "createCSVX(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CB837DEB-DC8F-47EF-87AA-AD581EE94FD1 - c9aa40ecf2a8b03f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static BehaviorBasedClassification.FileService.createCSVX(from: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/FileService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "3404">
+               </Location>
+               <Location
+                  uuid = "CB837DEB-DC8F-47EF-87AA-AD581EE94FD1 - c9aa40ecf2a8b01e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static BehaviorBasedClassification.FileService.createCSVX(from: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/FileService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "3564">
+               </Location>
+               <Location
+                  uuid = "CB837DEB-DC8F-47EF-87AA-AD581EE94FD1 - c9aa40ecf2a8b106"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static BehaviorBasedClassification.FileService.createCSVX(from: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/FileService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "3580">
+               </Location>
+               <Location
+                  uuid = "CB837DEB-DC8F-47EF-87AA-AD581EE94FD1 - c9aa40ecf2a8b161"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static BehaviorBasedClassification.FileService.createCSVX(from: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/FileService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "3812">
+               </Location>
+               <Location
+                  uuid = "CB837DEB-DC8F-47EF-87AA-AD581EE94FD1 - c9aa40ecf2a8b161"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static BehaviorBasedClassification.FileService.createCSVX(from: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/FileService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "2996">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F4E85A1-D613-4129-8327-E8A85D90D6F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BehaviorBasedClassification/ML/MLService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "predictBehaviour()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F2E1345-E0B2-4BEC-BA13-8EF614B5C356"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "prepareData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7F2E1345-E0B2-4BEC-BA13-8EF614B5C356 - ae9c15c4ea2594ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BehaviorBasedClassification.BehaviourAnalyticsService.prepareData() -&gt; Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "2580">
+               </Location>
+               <Location
+                  uuid = "7F2E1345-E0B2-4BEC-BA13-8EF614B5C356 - ae9c15c4ea2594ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BehaviorBasedClassification.BehaviourAnalyticsService.prepareData() -&gt; Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "1912">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD1E1A75-093B-41F9-8E10-165409E115C6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "label(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD1E1A75-093B-41F9-8E10-165409E115C6 - c10680e85775d261"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BehaviorBasedClassification.BehaviourAnalyticsService.label(BehaviorBasedClassification.BehaviourAnalyticsService.BehaviourLabel) -&gt; ()"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  uuid = "CD1E1A75-093B-41F9-8E10-165409E115C6 - c10680e85775d261"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BehaviorBasedClassification.BehaviourAnalyticsService.label(BehaviorBasedClassification.BehaviourAnalyticsService.BehaviourLabel) -&gt; ()"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "488">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BFF3856-E575-4143-A9B2-73A95C74CAAC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "prepareData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9BFF3856-E575-4143-A9B2-73A95C74CAAC - ae9c15c4ea25990e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BehaviorBasedClassification.BehaviourAnalyticsService.prepareData() -&gt; Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "780">
+               </Location>
+               <Location
+                  uuid = "9BFF3856-E575-4143-A9B2-73A95C74CAAC - 7bf5830a07b34e81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (BehaviorBasedClassification.BehaviourAnalyticsService.BehaviorData) -&gt; Swift.Bool in BehaviorBasedClassification.BehaviourAnalyticsService.prepareData() -&gt; Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "9BFF3856-E575-4143-A9B2-73A95C74CAAC - ae9c15c4ea25990e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BehaviorBasedClassification.BehaviourAnalyticsService.prepareData() -&gt; Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "660">
+               </Location>
+               <Location
+                  uuid = "9BFF3856-E575-4143-A9B2-73A95C74CAAC - 4f8c9c1f59ece080"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BehaviorBasedClassification.BehaviourAnalyticsService.BehaviorData) -&gt; Swift.Bool in BehaviorBasedClassification.BehaviourAnalyticsService.prepareData() -&gt; Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "BehaviorBasedClassification"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/U780052/Documents/Playgrounds/BehaviorBasedClassification/BehaviorBasedClassification/Analytics/BehaviourAnalyticsService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "621B27BD-CAFE-4B5E-BA12-D4E09453BBE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BehaviorBasedClassification/ML/MLService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "predictBehaviour()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
