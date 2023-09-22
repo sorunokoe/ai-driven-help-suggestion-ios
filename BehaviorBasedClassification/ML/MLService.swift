@@ -12,14 +12,14 @@ final class MLService: ObservableObject {
     
     static let shared = MLService()
     
-    private var model: BehaviourTabularClassifier?
+    private var model: BehaviourClassifier?
     
     @Published var behaviourType: BehaviourAnalyticsService.BehaviourLabel?
     
     private init() {
         let configuration = MLModelConfiguration()
         do {
-            self.model = try BehaviourTabularClassifier(configuration: configuration)
+            self.model = try BehaviourClassifier(configuration: configuration)
         } catch {
             assertionFailure(error.localizedDescription)
         }
@@ -68,14 +68,69 @@ final class MLService: ObservableObject {
                                                   change_booking_help_visits: change_booking_help_visits,
                                                   cancelation_and_refund_help_visits: cancelation_and_refund_help_visits,
                                                   other_help_visits: other_help_visits)
-                withAnimation {
-                    behaviourType = BehaviourAnalyticsService.BehaviourLabel(rawValue: Int(output.class_))
-                }
+                behaviourType = BehaviourAnalyticsService.BehaviourLabel(rawValue: Int(output.class_))
             } catch {
                 assertionFailure(error.localizedDescription)
             }
         }
     }
     
+    
+    // MARK: CoreML: Update model
+    
+    func updateModel(with label: BehaviourAnalyticsService.BehaviourLabel) {
+        let url = Bundle.main.url(forResource: "BehaviourClassifier", withExtension: "mlmodelc")!
+        
+        let trainingData = getFeatureProvider(with: label)
+        
+        do {
+            let task = try MLUpdateTask(forModelAt: url,
+                                        trainingData: trainingData) { updateContext in
+                let updatedModel = updateContext.model
+                
+                let fileManager = FileManager.default
+                do {
+                    let tempUpdatedModelURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0].appendingPathComponent("MLTemporary")
+                    
+                    // Create a directory for the updated model.
+                    try fileManager.createDirectory(at: tempUpdatedModelURL,
+                                                    withIntermediateDirectories: true,
+                                                    attributes: nil)
+                    
+                    // Save the updated model to temporary filename.
+                    try updatedModel.write(to: tempUpdatedModelURL)
+                    
+                    // Replace any previously updated model with this one.
+                    _ = try fileManager.replaceItemAt(url,
+                                                      withItemAt: tempUpdatedModelURL)
+                    
+                    print("Updated model saved to:\n\t\(url)")
+                } catch let error {
+                    print("Could not save updated model to the file system: \(error)")
+                    return
+                }
+                
+            }
+            task.resume()
+        } catch {
+            print(error.localizedDescription)
+        }
+        
+    }
+    
+    func getFeatureProvider(with label: BehaviourAnalyticsService.BehaviourLabel) -> MLArrayBatchProvider {
+        var featureProviders: [MLFeatureProvider] = []
+
+//        let data = BehaviourAnalyticsService.shared.label(label)
+//        let dataPoints = Dictionary(uniqueKeysWithValues: data.map { key, value in (key, MLFeatureValue(string: value))})
+//        
+//        let dataPointFeatures: [String: MLFeatureValue] = dataPoints
+//        
+//        if let provider = try? MLDictionaryFeatureProvider(dictionary: dataPointFeatures) {
+//            featureProviders.append(provider)
+//        }
+//        
+        return MLArrayBatchProvider(array: featureProviders)
+    }
     
 }

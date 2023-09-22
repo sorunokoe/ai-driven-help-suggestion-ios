@@ -22,8 +22,8 @@
 		7C8B29402ABC72BE00C59E2C /* BehaviourAnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B293F2ABC72BE00C59E2C /* BehaviourAnalyticsService.swift */; };
 		7C8B29422ABCA8D100C59E2C /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B29412ABCA8D100C59E2C /* FileService.swift */; };
 		7C8B29452ABCC58B00C59E2C /* behaviour.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7C8B29442ABCC58B00C59E2C /* behaviour.csv */; };
-		7C8B294A2ABCE48600C59E2C /* BehaviourTabularClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B29482ABCE48600C59E2C /* BehaviourTabularClassifier.mlmodel */; };
 		7C8B294D2ABCE49C00C59E2C /* MLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B294C2ABCE49C00C59E2C /* MLService.swift */; };
+		7C8B29552ABDBEF800C59E2C /* BehaviourClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B29542ABDBEF800C59E2C /* BehaviourClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +43,8 @@
 		7C8B293F2ABC72BE00C59E2C /* BehaviourAnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviourAnalyticsService.swift; sourceTree = "<group>"; };
 		7C8B29412ABCA8D100C59E2C /* FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
 		7C8B29442ABCC58B00C59E2C /* behaviour.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = behaviour.csv; sourceTree = "<group>"; };
-		7C8B29482ABCE48600C59E2C /* BehaviourTabularClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BehaviourTabularClassifier.mlmodel; sourceTree = "<group>"; };
 		7C8B294C2ABCE49C00C59E2C /* MLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLService.swift; sourceTree = "<group>"; };
+		7C8B29542ABDBEF800C59E2C /* BehaviourClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BehaviourClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,7 @@
 		7C8B29462ABCE47400C59E2C /* MLModel */ = {
 			isa = PBXGroup;
 			children = (
-				7C8B29482ABCE48600C59E2C /* BehaviourTabularClassifier.mlmodel */,
+				7C8B29542ABDBEF800C59E2C /* BehaviourClassifier.mlmodel */,
 			);
 			path = MLModel;
 			sourceTree = "<group>";
@@ -222,7 +222,7 @@
 				7C8B292F2ABBA72300C59E2C /* PageView.swift in Sources */,
 				7C8B293D2ABC6D1F00C59E2C /* HelpPageDetail.swift in Sources */,
 				7C8B29352ABBADF400C59E2C /* SuccessPage.swift in Sources */,
-				7C8B294A2ABCE48600C59E2C /* BehaviourTabularClassifier.mlmodel in Sources */,
+				7C8B29552ABDBEF800C59E2C /* BehaviourClassifier.mlmodel in Sources */,
 				7C8B291E2ABBA2B800C59E2C /* BehaviorBasedClassificationApp.swift in Sources */,
 				7C8B29422ABCA8D100C59E2C /* FileService.swift in Sources */,
 				7C8B29332ABBACE400C59E2C /* Defaults.swift in Sources */,

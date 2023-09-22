@@ -133,13 +133,12 @@ final class BehaviourAnalyticsService {
         storage.append(data)
         
         MLService.shared.predictBehaviour()
-        print("- - - - - - - - - -")
     }
     
     func prepareData() -> [String: String] {
         let cleanStorage = storage.filter { $0.duration != nil && $0.event != .appActive && $0.event != .appInBackgroundState }
         
-        guard cleanStorage.count > 3 else { return [:] }
+//        guard cleanStorage.count > 3 else { return [:] }
         
         let homePageVisits = cleanStorage.filter { $0.event == .visit(.home) }.count
         let flightPageVisits = cleanStorage.filter { $0.event == .visit(.bookFlight) }.count
@@ -200,10 +199,17 @@ final class BehaviourAnalyticsService {
     func label(_ type: BehaviourLabel) {
         var data = prepareData()
         data["class"] = "\(type.rawValue)"
-        FileService.createCSVX(from: data)
+        FileService.createCSV(from: data)
         
         clean()
     }
+    
+//    func label(_ type: BehaviourLabel) -> [String: String] {
+//        var data = prepareData()
+//        data["class"] = "\(type.rawValue)"
+////        FileService.createCSVX(from: data)
+//        return data
+//    }
     
     func clean() {
         storage.removeAll()

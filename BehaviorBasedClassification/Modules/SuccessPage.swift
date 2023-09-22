@@ -42,6 +42,7 @@ struct SuccessPage: View {
     
     func configure() {
         BehaviourAnalyticsService.shared.event(.visit(.successfullPage))
+        BehaviourAnalyticsService.shared.label(.normal)
     }
 }
 
